@@ -1,5 +1,3 @@
-
-
 def report(the_file):
     for line in the_file:
         line = line.rstrip()
@@ -16,13 +14,10 @@ the_file = open("um-deliveries-20140519.txt")
 report(the_file)
 the_file.close()
 
-
-
 print("Day 2")
 the_file = open("um-deliveries-20140520.txt")
 report(the_file)
 the_file.close()
-
 
 print("Day 3")
 the_file = open("um-deliveries-20140521.txt")
